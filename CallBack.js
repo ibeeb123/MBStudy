@@ -75,7 +75,7 @@ function run() {
   });
 }
 
-async function process() {
+async function process() {      // async promise를 반환하느거랑 callback을 안쓰는 거랑 무슨 연관
   await run();
   await run();
   console.log('Done !!!');
